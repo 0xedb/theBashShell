@@ -1,1 +1,1 @@
-<marquee style="font-size: 3em;">I'm a fullstack developer</marquee>
+<h1 style="font-size: 3em;">I'm a fullstack developer</h1>
