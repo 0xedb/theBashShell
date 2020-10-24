@@ -1,0 +1,6 @@
+.page {
+    height: 100vh;
+    background: crimson;
+    width: 100vw;
+    min-width: 340px;
+}
