@@ -1,0 +1,22 @@
+html {
+  box-sizing: border-box;
+  transition: all 0.3s ease 0.1s;
+}
+
+* {
+  box-sizing: inherit;
+  transition: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(233, 233, 233);
+  border-radius: 12px;
+}

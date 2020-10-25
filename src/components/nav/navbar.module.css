@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 52px;
+  width: 100vw;
+  padding: 0 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 15px 0px;
+  font-family: "Fira Code", monospace;
+}
+
+.nav__item {
+  width: 100%;
+}
+
+.nav__item:nth-child(2) {
+  display: flex;
+  justify-content: flex-end;
+}
