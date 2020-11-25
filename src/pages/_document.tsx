@@ -1,21 +1,20 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
-class MyDocument extends Document {
-  static async getInitialProps(ctx) {
-    const initialProps = await Document.getInitialProps(ctx);
-    return { ...initialProps };
-  }
+class TheBashShellDocument extends Document {
+  //   static async getInitialProps(ctx) {
+  //     const initialProps = await Document.getInitialProps(ctx)
+  //     return { ...initialProps }
+  //   }
 
   render() {
     return (
-      <Html lang="en">
+      <Html>
         <Head>
           <link
-            href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&display=swap"
-            rel="stylesheet"
+            rel="shortcut icon"
+            type="image/png"
+            href="/images/favicon.png"
           />
-          <link href="/css/app.css" rel="stylesheet" />
-          {/* add fav icon */}
         </Head>
         <body>
           <Main />
@@ -26,4 +25,4 @@ class MyDocument extends Document {
   }
 }
 
-export default MyDocument;
+export default TheBashShellDocument;

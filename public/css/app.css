@@ -1,11 +1,22 @@
 html {
   box-sizing: border-box;
   transition: all 0.3s ease 0.1s;
+  scroll-behavior: smooth;
+  height: 100%;
 }
 
 * {
   box-sizing: inherit;
   transition: inherit;
+}
+
+:root {
+  --max-w: 1300px;
+  --nav-height: 56px;
+}
+
+body {
+  height: 100%;
 }
 
 ::-webkit-scrollbar {
@@ -19,4 +30,8 @@ html {
 ::-webkit-scrollbar-thumb {
   background: rgb(233, 233, 233);
   border-radius: 12px;
+}
+
+#app {
+  padding-top: var(--nav-height);
 }
