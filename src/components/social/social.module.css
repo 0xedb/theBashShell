@@ -1,0 +1,10 @@
+.icon img {
+  width: 20px;
+  height: 20px;
+  filter: grayscale(1);
+  margin: 8px;
+}
+
+.icon img:hover {
+  filter: unset;
+}

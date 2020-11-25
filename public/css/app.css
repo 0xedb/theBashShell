@@ -13,6 +13,7 @@ html {
 :root {
   --max-w: 1300px;
   --nav-height: 56px;
+  --min-w: 350px;
 }
 
 body {
@@ -34,4 +35,9 @@ body {
 
 #app {
   padding-top: var(--nav-height);
+  min-width: var(--min-w);
+}
+
+.content {
+  max-width: var(--max-w);
 }
