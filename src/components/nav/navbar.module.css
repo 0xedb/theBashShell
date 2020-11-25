@@ -1,5 +1,11 @@
 .nav {
   height: var(--nav-height);
   min-width: var(--min-w);
-  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 15px 0 rgb(80 71 71 / 10%);
+}
+
+.logo {
+  font-family: "Caveat", cursive;
+  font-weight: bolder;
+  font-size: 36px;
 }

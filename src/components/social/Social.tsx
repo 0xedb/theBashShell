@@ -3,7 +3,7 @@ import style from "./social.module.css";
 export default function Social() {
   return (
     <aside
-      className={`${style.icon} flex md:flex-col  md:fixed left-0 bottom-0`}
+      className={`${style.icon} flex md:flex-col md:fixed top-1/3 left-0 bottom-0`}
     >
       <a href="https://github.com/theBashShell" target="_blank">
         <img
@@ -44,7 +44,7 @@ export default function Social() {
           alt="codesandbox"
         />
       </a>
-      <hr className="hidden   left-0 bottom-0 transform rotate-90 md:border-pink-600 md:block md:w-2/5 md:border" />
+      <div className="hidden left-0 bottom-0 transform rotate-90 md:border-pink-600 md:block md:border relative" />
     </aside>
   );
 }

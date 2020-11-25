@@ -15,6 +15,11 @@ class TheBashShellDocument extends Document {
             type="image/png"
             href="/images/favicon.png"
           />
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap"
+            rel="stylesheet"
+          />
         </Head>
         <body>
           <Main />

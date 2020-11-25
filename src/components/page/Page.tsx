@@ -4,7 +4,10 @@ import Head from "next/head";
 
 export default function Page({ children }) {
   return (
-    <div id="app" className="flex flex-col min-h-screen">
+    <div
+      id="app"
+      className="flex flex-col min-h-screen "
+    >
       <Head>
         <title>theBashShell::bruno's piece of the internet</title>
       </Head>
@@ -14,3 +17,4 @@ export default function Page({ children }) {
     </div>
   );
 }
+// bg-gray-900 text-gray-50

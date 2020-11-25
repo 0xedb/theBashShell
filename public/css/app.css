@@ -12,7 +12,7 @@ html {
 
 :root {
   --max-w: 1300px;
-  --nav-height: 56px;
+  --nav-height: 62px;
   --min-w: 350px;
 }
 
@@ -21,7 +21,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 7px;
+  width: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -29,7 +29,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(233, 233, 233);
+  background: rgb(187, 187, 187);
   border-radius: 12px;
 }
 
@@ -39,5 +39,11 @@ body {
 }
 
 .content {
+  margin: auto;
   max-width: var(--max-w);
+  max-width: clamp(70%, 85%, --max-w);
+}
+
+.sec {
+  padding: 0 clamp(20px, 5vw, 50px);
 }
