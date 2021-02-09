@@ -2,4 +2,7 @@
   display: grid;
   grid-template-rows: minmax(40px, 60px) 1fr auto;
   height: 100vh;
+  background-color: var(--bg);
+  color: #edeff1;
+  font-family: "Fira Code", monospace;
 }
