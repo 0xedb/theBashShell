@@ -1,6 +1,9 @@
 :root {
   box-sizing: border-box;
   --bg: #131a23;
+  --w-content: 1200px;
+  --mwidth: 350px;
+  --mpad: 10px 20px;
 }
 
 html,
@@ -15,4 +18,10 @@ body {
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+.content {
+  width: 100%;
+  max-width: var(--w-content);
+  position: relative;
 }

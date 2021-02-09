@@ -4,5 +4,6 @@
   height: 100vh;
   background-color: var(--bg);
   color: #edeff1;
+  min-width: 350px;
   font-family: "Fira Code", monospace;
 }

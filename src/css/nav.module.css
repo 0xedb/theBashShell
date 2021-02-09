@@ -1,0 +1,11 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  padding: var(--mpad);
+}
+
+.content, .theme {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
