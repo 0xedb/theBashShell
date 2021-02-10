@@ -4,8 +4,18 @@
   padding: var(--mpad);
 }
 
-.content, .theme {
+.content,
+.theme {
   display: flex;
+  align-items: center;
+}
+
+.content {
   justify-content: space-between;
   gap: 10px;
+}
+
+.theme {
+  align-items: center; 
+  gap: 20px;
 }

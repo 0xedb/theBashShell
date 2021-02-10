@@ -16,10 +16,10 @@ export default function Nav() {
       <div className={`content ${style.content}`}>
         <div>logo</div>
         <div className={style.theme}>
-          <span>nav</span>
-          <span onClick={themeHandler}>
+          <div>nav</div>
+          <div onClick={themeHandler}>
             <img src={darkMode ? THEME_URL.light : THEME_URL.dark} />
-          </span>
+          </div>
         </div>
       </div>
     </nav>
